@@ -41,13 +41,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'your-web-api-key',
-    appId: 'your-web-app-id',
-    messagingSenderId: 'your-sender-id',
-    projectId: 'your-project-id',
-    authDomain: 'your-project-id.firebaseapp.com',
-    storageBucket: 'your-project-id.appspot.com',
-    measurementId: 'G-MEASUREMENT_ID',
+    apiKey: 'AIzaSyDXBZp7vRmH7ZhEmu3TtzBqWckGq0NTDcM',
+    appId: '1:375723498189:web:42cef237a2d28b6a2a6784',
+    messagingSenderId: '375723498189',
+    projectId: 'student-attendance-app-12bd1',
+    authDomain: 'student-attendance-app-12bd1.firebaseapp.com',
+    storageBucket: 'student-attendance-app-12bd1.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -82,12 +81,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'your-web-api-key',
-    appId: 'your-web-app-id',
-    messagingSenderId: 'your-sender-id',
-    projectId: 'your-project-id',
-    authDomain: 'your-project-id.firebaseapp.com',
-    storageBucket: 'your-project-id.appspot.com',
-    measurementId: 'G-MEASUREMENT_ID',
+    apiKey: 'AIzaSyDXBZp7vRmH7ZhEmu3TtzBqWckGq0NTDcM',
+    appId: '1:375723498189:web:42cef237a2d28b6a2a6784',
+    messagingSenderId: '375723498189',
+    projectId: 'student-attendance-app-12bd1',
+    authDomain: 'student-attendance-app-12bd1.firebaseapp.com',
+    storageBucket: 'student-attendance-app-12bd1.firebasestorage.app',
   );
 }

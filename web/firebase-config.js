@@ -3,12 +3,12 @@
 // Get this from Firebase Console > Project Settings > General > Your apps > Firebase SDK snippet
 
 const firebaseConfig = {
-  apiKey: "your-api-key",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "your-app-id"
+  apiKey: "AIzaSyDXBZp7vRmH7ZhEmu3TtzBqWckGq0NTDcM",
+  authDomain: "student-attendance-app-12bd1.firebaseapp.com",
+  projectId: "student-attendance-app-12bd1",
+  storageBucket: "student-attendance-app-12bd1.firebasestorage.app",
+  messagingSenderId: "375723498189",
+  appId: "1:375723498189:web:42cef237a2d28b6a2a6784"
 };
 
 // Initialize Firebase
