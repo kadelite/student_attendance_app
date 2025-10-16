@@ -103,6 +103,15 @@ class _TeacherDashboardState extends State<TeacherDashboard> with SingleTickerPr
         backgroundColor: Theme.of(context).primaryColor,
         foregroundColor: Colors.white,
         elevation: 0,
+        leading: IconButton(
+          onPressed: () {
+            Navigator.of(context).pushReplacement(
+              MaterialPageRoute(builder: (context) => const LoginScreen()),
+            );
+          },
+          icon: const Icon(Icons.arrow_back),
+          tooltip: 'Back to Login',
+        ),
         actions: [
           IconButton(
             onPressed: _loadData,
