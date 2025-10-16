@@ -61,7 +61,7 @@ dependencies:
   
   # QR Code (for attendance)
   qr_flutter: ^4.1.0
-  qr_code_scanner: ^1.0.1
+  # qr_code_scanner: ^1.0.1  # Temporarily disabled for build compatibility
   
   # Permissions
   permission_handler: ^11.3.1
