@@ -173,7 +173,7 @@ class _AdminDashboardState extends State<AdminDashboard> with SingleTickerProvid
                 Icons.people_outlined,
               )
             else
-              .../_allStudents.map((student) => _buildStudentCard(student)).toList(),
+              ..._allStudents.map((student) => _buildStudentCard(student)).toList(),
           ],
         ),
       ),
@@ -403,7 +403,7 @@ class _AdminDashboardState extends State<AdminDashboard> with SingleTickerProvid
             Icons.history_outlined,
           )
         else
-          .../_recentAttendance.take(5).map((record) => _buildActivityItem(record)).toList(),
+          ..._recentAttendance.take(5).map((record) => _buildActivityItem(record)).toList(),
       ],
     );
   }

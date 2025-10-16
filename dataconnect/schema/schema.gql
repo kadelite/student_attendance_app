@@ -1,0 +1,39 @@
+type User @table {
+  firstName: String!
+  lastName: String!
+  email: String!
+  role: String!
+  createdAt: Timestamp!
+  phoneNumber: String
+  dateOfBirth: Date
+}
+
+type Class @table {
+  name: String!
+  subject: String!
+  gradeLevel: String!
+  createdAt: Timestamp!
+  description: String
+  roomNumber: String
+}
+
+type StudentClass @table(key: ["student", "class"]) {
+  student: User!
+  class: Class!
+  createdAt: Timestamp!
+}
+
+type TeacherClass @table(key: ["teacher", "class"]) {
+  teacher: User!
+  class: Class!
+  createdAt: Timestamp!
+}
+
+type AttendanceRecord @table {
+  date: Date!
+  status: String!
+  createdAt: Timestamp!
+  notes: String
+  student: User!
+  class: Class!
+}

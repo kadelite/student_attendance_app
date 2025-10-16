@@ -194,7 +194,7 @@ class _TeacherDashboardState extends State<TeacherDashboard> with SingleTickerPr
                 Icons.school_outlined,
               )
             else
-              .../_students.map((student) => _buildStudentAttendanceCard(student)).toList(),
+              ..._students.map((student) => _buildStudentAttendanceCard(student)).toList(),
           ],
         ),
       ),
@@ -240,7 +240,7 @@ class _TeacherDashboardState extends State<TeacherDashboard> with SingleTickerPr
                 Icons.people_outlined,
               )
             else
-              .../_students.map((student) => _buildStudentInfoCard(student)).toList(),
+              ..._students.map((student) => _buildStudentInfoCard(student)).toList(),
           ],
         ),
       ),

@@ -271,7 +271,7 @@ class _StudentDashboardState extends State<StudentDashboard> {
             ),
           )
         else
-          .../_recentAttendance.map((attendance) => _buildAttendanceItem(attendance)).toList(),
+          ..._recentAttendance.map((attendance) => _buildAttendanceItem(attendance)).toList(),
       ],
     );
   }

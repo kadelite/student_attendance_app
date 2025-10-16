@@ -114,6 +114,13 @@ lib/
 
 ## Development Notes
 
+### Firebase Setup
+The app is configured for Firebase Authentication but requires setup:
+1. See `FIREBASE_SETUP.md` for detailed instructions
+2. Update `lib/firebase_options.dart` with your Firebase config
+3. Update `web/firebase-config.js` with your Firebase config
+4. App falls back to local storage when Firebase is not configured
+
 ### Authentication Flow
 1. App starts with splash screen checking authentication state
 2. Routes to login screen if not authenticated
